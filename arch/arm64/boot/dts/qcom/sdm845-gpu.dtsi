@@ -63,6 +63,9 @@
 		qcom,gpu-quirk-hfi-use-reg;
 		qcom,gpu-quirk-secvid-set-once;
 
+		/* To disable GPU wake up on touch event */
+		qcom,disable-wake-on-touch;
+
 		qcom,idle-timeout = <64>; //msecs
 		qcom,no-nap;
 
