@@ -634,8 +634,6 @@
 
 #include "sdm670-qupv3.dtsi"
 
-#include "sdm670-coresight.dtsi"
-
 #include "sdm670-vidc.dtsi"
 
 #include "sdm670-sde-pll.dtsi"
@@ -723,6 +721,7 @@
 		clock-names = "core_clk";
 
 		qcom,coresight-jtagmm-cpu = <&CPU6>;
+		status = "disabled";
 	};
 
 	jtag_mm7: jtagmm@7740000 {
