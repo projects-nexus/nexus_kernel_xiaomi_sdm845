@@ -17,6 +17,7 @@
 #include "sdm845-pinctrl-overlay.dtsi"
 #include "sdm845-xiaomi-common.dtsi"
 #include "beryllium-p0-camera-sensor-mtp.dtsi"
+#include "sdm845-thermal.dtsi"
 
 &qupv3_se10_i2c {
 #include "smb1355.dtsi"
