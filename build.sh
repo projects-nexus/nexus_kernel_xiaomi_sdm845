@@ -14,7 +14,7 @@ MODEL=Xiaomi
 DEVICE=Beryllium
 
 # Kernel Version Code
-VERSION=X1
+VERSION=X2-beta
 
 # Kernel Defconfig
 DEFCONFIG=beryllium_defconfig
